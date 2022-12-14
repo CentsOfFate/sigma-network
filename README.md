@@ -1,6 +1,11 @@
 # Sigma Network
 Scripts to stand-up Home Network (Codenamed: Sigma).
 
+## Packages to install
+* Grafana
+* Prometheus
+* Ansible
+
 ## Grafana Setup - v9.3.1
 
 * Ubuntu & Debian
