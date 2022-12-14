@@ -7,6 +7,19 @@ Scripts to stand-up Home Network (Codenamed: Sigma).
 * Ansible
 
 ## Setup SSH
+May need to adjust /etc/ssh/sshd_config to allow Ansible Playbooks to run properly
+
+`sudo vim /etc/ssh/sshd_config`
+
+```
+# To disable tunneled clear text passwords, change to no here!
+PasswordAuthentication yes
+#PermitEmptyPasswords no
+
+# Change to yes to enable challenge-response passwords (beware issues with
+# some PAM modules and threads)
+ChallengeResponseAuthentication no
+```
 
 ## Grafana Setup - v9.3.1
 
