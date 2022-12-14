@@ -37,3 +37,9 @@ sudo dpkg -i grafana_9.3.1_amd64.deb
 wget https://github.com/prometheus/prometheus/releases/download/v2.40.7/prometheus-2.40.7.linux-amd64.tar.gz
 tar xvf prometheus-2.40.6.linux-amd64.tar.gz
 ```
+
+## Node Exporter - v1.5.0
+```
+wget https://github.com/prometheus/node_exporter/releases/download/v1.5.0/node_exporter-1.5.0.linux-amd64.tar.gz
+tar xvf node_exporter-1.5.0.linux-amd64.tar.gz
+```
