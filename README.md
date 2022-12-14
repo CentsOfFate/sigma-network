@@ -6,6 +6,8 @@ Scripts to stand-up Home Network (Codenamed: Sigma).
 * Prometheus
 * Ansible
 
+## Setup SSH
+
 ## Grafana Setup - v9.3.1
 
 * Ubuntu & Debian
