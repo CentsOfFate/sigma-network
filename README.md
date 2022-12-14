@@ -4,6 +4,7 @@ Scripts to stand-up Home Network (Codenamed: Sigma).
 ## Packages to install
 * Grafana
 * Prometheus
+* Node Exporter
 * Ansible
 
 ## Setup SSH
@@ -39,6 +40,7 @@ tar xvf prometheus-2.40.6.linux-amd64.tar.gz
 ```
 
 ## Node Exporter - v1.5.0
+https://ourcodeworld.com/articles/read/1686/how-to-install-prometheus-node-exporter-on-ubuntu-2004
 ```
 wget https://github.com/prometheus/node_exporter/releases/download/v1.5.0/node_exporter-1.5.0.linux-amd64.tar.gz
 tar xvf node_exporter-1.5.0.linux-amd64.tar.gz
