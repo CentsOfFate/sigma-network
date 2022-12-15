@@ -1,6 +1,9 @@
 # Sigma Network
 Scripts to stand-up Home Network (Codenamed: Sigma).
 
+## Blogs
+* https://www.linuxsysadmins.com/prometheus-with-grafana-for-linux-server/
+
 ## Packages to install
 * Grafana
 * Prometheus
@@ -44,4 +47,6 @@ https://ourcodeworld.com/articles/read/1686/how-to-install-prometheus-node-expor
 ```
 wget https://github.com/prometheus/node_exporter/releases/download/v1.5.0/node_exporter-1.5.0.linux-amd64.tar.gz
 tar xvf node_exporter-1.5.0.linux-amd64.tar.gz
+cd node_exporter
+./node_exporter
 ```
