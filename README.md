@@ -27,6 +27,8 @@ PasswordAuthentication yes
 ChallengeResponseAuthentication no
 ```
 
+## NextCloud Setup
+
 ## Grafana Setup - v9.3.1
 
 * Ubuntu & Debian
