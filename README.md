@@ -2,6 +2,7 @@
 Scripts to stand-up Home Network (Codenamed: Sigma).
 
 ## Blogs
+* https://docs.docker.com/engine/install/ubuntu/
 * https://www.linuxsysadmins.com/prometheus-with-grafana-for-linux-server/
 
 ## Packages to install
@@ -9,6 +10,7 @@ Scripts to stand-up Home Network (Codenamed: Sigma).
 * Prometheus
 * Node Exporter
 * Ansible
+* Docker
 
 ## Setup SSH
 May need to adjust /etc/ssh/sshd_config to allow Ansible Playbooks to run properly
